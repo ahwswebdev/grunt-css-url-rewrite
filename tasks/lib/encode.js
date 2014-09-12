@@ -175,7 +175,7 @@ exports.init = function(grunt) {
     } else {
       // Does the image actually exist?
       if(!fs.existsSync(img)) {
-        grunt.fail.warn("File " + img + " does not exist");
+//        grunt.fail.warn("File " + img + " does not exist");
         complete(null, img, false);
         return;
       }
